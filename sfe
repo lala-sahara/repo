@@ -1,3 +1,5 @@
 one line
 two line
 three lines
+git reset HEAD
+git add .
