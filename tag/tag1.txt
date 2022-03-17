@@ -1,0 +1,5 @@
+THIS IS 
+git taf -a first_tag 
+add some message
+shoule add message
+git tag -a second_tag -m 'For second tag'
