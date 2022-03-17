@@ -3,3 +3,10 @@ git taf -a first_tag
 add some message
 shoule add message
 git tag -a second_tag -m 'For second tag'
+why add tag
+1 i do not know
+1 sleepy
+3still sleepy
+4really sleepy
+5 i am going to take a nap
+
