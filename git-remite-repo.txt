@@ -1,0 +1,1185 @@
+    1  chsh -s /bin/zsh
+    2  ls
+    3  cd Desktop
+    4  ls
+    5  cd ohmyzsh
+    6  git branch
+    7  git log
+    8  git status
+    9  cd ~
+   10  ls -al
+   11  cat .zsh_history
+   12  cat .zshrc
+   13  pwd
+   14  cd .oh-my-zsh.sh
+   15  ls -al
+   16  cd .oh-my-zsh
+   17  ls
+   18  cd themes
+   19  ls
+   20  cd ..
+   21  ls -a
+   22  cat oh-my-zsh.sh
+   23  ls
+   24  cd tools
+   25  ls
+   26  cd ..
+   27  ls
+   28  cd templates
+   29  ls
+   30  cd ..
+   31  ls
+   32  ls -al
+   33  cd ..
+   34  ls
+   35  ls -al
+   36  sudo vim .zshrc
+   37  cd ..
+   38  cd ~
+   39  cd Desktop
+   40  ls
+   41  cd ohmyzsh
+   42  ls
+   43  cd themes
+   44  ls
+   45  cd ..
+   46  pwd
+   47  ls
+   48  cd ..
+   49  ls
+   50  cd ohmyzsh
+   51  ls -a
+   52  cd ..
+   53  ls -al
+   54  cd ohmyzsh
+   55  ls -al
+   56  cd ~
+   57  pwd
+   58  ls
+   59  cd Desktop
+   60  cd ..
+   61  pwd
+   62  ls -al
+   63  vi .zshrc
+   64  ls /usr/bin | grep python3
+   65  man wc
+   66  ls /bin | wc
+   67  cd Desktop
+   68  ls /usr/bin >wc.txt
+   69  wc -l wc.txt
+   70  wc -l /usr/bin 
+   71  ls /usr/bin | wc -l
+   72  pwd
+   73  rm wc.txt
+   74  ls -a
+   75  rm .second.txt.swp second.txt
+   76  ls -a
+   77  rm demo.txt
+   78  ls -a
+   79  ls ~
+   80  cho 1-2
+   81  echo 1+2
+   82  echo 1+2 >> add.txt
+   83  echo 2+3 >> add.txt
+   84  cat add.txt
+   85  echo 3+4 >> add.txt
+   86  echo 4+5 >> add.txt
+   87  bc
+   88  sudo su root
+   89  su demo
+   90  pwd
+   91  groups buladou
+   92  sudo gpasswd -a demo sudo
+   93  groups demo
+   94  whoami
+   95  su demo
+   96  whoami
+   97  sudo gpasswd -d demo sudo
+   98  exit
+   99  whoami
+  100  groups demo
+  101  sudo userdel -r demo
+  102  cd /home
+  103  ls
+  104  sudo adduser test
+  105  cd /home
+  106  ls
+  107  sudo userdel test
+  108  ls
+  109  su test
+  110  cd test
+  111  ls -al
+  112  pwd
+  113  groups buladou
+  114  groups
+  115  cat /etc/group
+  116  sudo groupadd demos
+  117  groups
+  118  groups buladou
+  119  sudo groupadd demos
+  120  groups
+  121  cd /etc/group
+  122  cat /etc/group
+  123  exit
+  124  whoami
+  125  groups
+  126  sudo gpasswd -a buladou demos
+  127  groups
+  128  groups buladou
+  129  cat /etc/group
+  130  sudo groupdel demos
+  131  groups buladou
+  132  cat /etc/group
+  133  exit
+  134  whoami
+  135  sudo adduser demo
+  136  cd /home
+  137  ls
+  138  sudo useradd first
+  139  cd /home
+  140  ls
+  141  cd /home
+  142  ls
+  143  man useradd
+  144  whoami
+  145  sudo userdel test
+  146  ls
+  147  cd test
+  148  ls
+  149  ls -al
+  150  su demo
+  151  whoami
+  152  su demo
+  153  sudo userdel demo
+  154  cd /home
+  155  ls -al
+  156  sudo useradd first -m -s /bin/zsh -G sudo
+  157  groups first
+  158  sudo useradd second -m -s /bin/zsh -G sudo
+  159  groups second
+  160  sudo passwd second
+  161  su second
+  162  pwd
+  163  ls
+  164  sudo ls
+  165  ls
+  166  cd Desktop
+  167  groups
+  168  sudo docker ps -a
+  169  ssh
+  170  ifconfig
+  171  ssh buladou@192.168.1.47
+  172  sudo apt update
+  173  sudo apt install openssh-server
+  174  ssh buladou@192.168.1.47
+  175  exit
+  176  ifconfig
+  177  sudo snap install termius-app
+  178  ls
+  179  pwd
+  180  cd Desktop
+  181  ls
+  182  ls -al
+  183  mkdir a
+  184  touch b
+  185  ssh
+  186  ssh buladou@192.168.1.47
+  187  cd Desktop
+  188  ls
+  189  ls -al
+  190  exit
+  191  ssh -p 22 buladou@192.168.1.47
+  192  cd /etc
+  193  ls  | grep ssh
+  194  cd ssh
+  195  ls
+  196  cd /etc
+  197  ls | grep ssh
+  198  cd ssh
+  199  ls
+  200  sudo vim sshd_config
+  201  sudo service ssh restart
+  202  sudo service ssh status
+  203  ssh buladou@192.168.1.47
+  204  ssh buladou@192.168.1.47 -p 2233
+  205  cd Desktop
+  206  pwd
+  207  sudo vim sshd_config
+  208  ssh buladou@192.168.1.47
+  209  ssh buladou@192.168.1.47 -p 22
+  210  ssh buladou@192.168.1.47
+  211  sudo service ssh restart
+  212  sudo service ssh status
+  213  ssh buladou@192.168.1.47
+  214  exit
+  215  ls
+  216  cd /etc
+  217  ls
+  218  cd zsh
+  219  ls
+  220  cat .zshrc
+  221  cd ~
+  222  pwd
+  223  cd /etc | grep ssh
+  224  ls /etc | grep ssh
+  225  cd ssh
+  226  cd /etc
+  227  ls | grep ssh
+  228  cd ssh
+  229  ls
+  230  sudo vi sshd_config
+  231  cd ~
+  232  pwd
+  233  ls
+  234  ls -al
+  235  cd .ssh
+  236  ls -al
+  237  ssh-keygen
+  238  ls -al
+  239  cat id_ras
+  240  cat id_rsa
+  241  cat id_rsa.pub
+  242  ls
+  243  ls -a
+  244  ssh buladou@192.168.1.47
+  245  cd .ssh
+  246  ls
+  247  touch authorized_keys
+  248  vim authorized_keys
+  249  ls -al
+  250  cd /etc/ssh
+  251  ls -a
+  252  vim sshd_config
+  253  exit
+  254  ssh buladou@192.168.1.47
+  255  cd .ssh
+  256  ls -a
+  257  cat id_rsa
+  258  cd .ssh
+  259  ls -a
+  260  pwd
+  261  cd ..
+  262  pwd
+  263  ls
+  264  cd /etc
+  265  ls -a
+  266  cd .ssh
+  267  ls -a
+  268  cd .ssh
+  269  cd ~
+  270  cd .ssh
+  271  ls -a
+  272  cat id_rsa > ../Desktop/id_rsa_c
+  273  cd ..
+  274  cd Desktop
+  275  ls -a
+  276  cd ~
+  277  cd .ssh
+  278  ls -a
+  279  cat id_rsa.pub > ../Desktop/id_rsa.pub_c.txt
+  280  cd ..
+  281  cd Desktop
+  282  ls -a
+  283  cd ~
+  284  cd .ssh
+  285  ls -a
+  286  cat id_rsa.pub
+  287  df -h
+  288  du
+  289  du -h
+  290  du -h /
+  291  man du
+  292  cd ~
+  293  du -d
+  294  man du
+  295  du -version
+  296  du --v
+  297  free
+  298  free -h
+  299  top
+  300  top --v
+  301  top -v
+  302  du -v
+  303  du --v
+  304  dash
+  305  bash
+  306  exit
+  307  ip route
+  308  clear
+  309  ps
+  310  ps -ax
+  311  ps -a
+  312  ps -a | grep firefox
+  313  kill 3113
+  314  wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh ed099927
+  315  ls
+  316  less install.sh
+  317  ls
+  318  pwd
+  319  exit
+  320  sudo docker info
+  321  sudo docker -v
+  322  sudo docker version
+  323  cd /etc/docker
+  324  ls -a
+  325  clear
+  326  cd /etc/docker
+  327  ls -a
+  328  sudo touch daemon.json
+  329  sudo vin daemon.json
+  330  sudo vim daemon.json
+  331  sudo docker stats
+  332  systemctl daemon-reload
+  333  systemctl restart docker.service
+  334  sudo docker run hello-world
+  335  sudo docker login
+  336  sudo docker run ubuntu
+  337  sudo docker run -it ubuntu bash
+  338  uname -a
+  339  whoami
+  340  hostname
+  341  sudo docker images
+  342  sudo docker ps
+  343  sudo docker ps -a
+  344  exit
+  345  sudo docker imges
+  346  sudo docker images
+  347  sudo docker ps -a
+  348  docker pa-a
+  349  docker ps -a
+  350  sudo docker pa -a
+  351  clear
+  352  pwd
+  353  sudo docker ps
+  354  sudo docker ps -a
+  355  sudo docker rm 520
+  356  sudo docker ps -a
+  357  sudo docker rm 708f 2a45
+  358  sudo docker ps -a
+  359  sudo docker images
+  360  sudo docker rmi ubuntu
+  361  sudo docker images
+  362  sudo docker run hello-world
+  363  sudo docker ps -a
+  364  sudo docker rmi hello-world
+  365  sudo docker ps -a
+  366  sudo docker rm 1f3
+  367  sudo docker rmi hello-world
+  368  sudo docker ps -a
+  369  sudo docker pull ubuntu
+  370  sudo docker images
+  371  sudo docker run ubuntu
+  372  sudo docker ps -a
+  373  sudo docker run -it ubuntu
+  374  history
+  375  ls
+  376  exit
+  377  sudo docker ps -a
+  378  sudo docker run -dit ubuntu
+  379  sudo docker ps -a
+  380  sudo docker exec -it 3c166 bash
+  381  ls
+  382  pwd
+  383  sudo docker rm 3c166 fa7 215
+  384  sudo docker rm 3c1
+  385  sudo docker ps -a
+  386  sudo docker exec -it 215c bash
+  387  sudo docker pa -a
+  388  sudo docker ps -a
+  389  sudo docker images
+  390  sudo docker run ubuntu
+  391  sudo docker ps -a
+  392  sudo docker rm 215c
+  393  sudo docker stop 215c
+  394  sudo docker ps -a
+  395  sudo docker start 215c
+  396  sudo docker ps -a
+  397  sudo docker start 5d141
+  398  sudo docker ps -a
+  399  sudo docker start 5d141
+  400  sudo docker ps -a
+  401  sudo docker kill 215c
+  402  sudo docker ps -a
+  403  sudo docker start 215c
+  404  sudo docker ps -a
+  405  sudo docker restart 215c
+  406  sudo docker ps -a
+  407  sudo docker rm 5d141
+  408  sudo docker ps -a
+  409  sudo docker run -dit --name=buladou ubuntu
+  410  sudo docker ps -a
+  411  sudo docker exec -it buladou bash
+  412  sudo docker stop buladou
+  413  sudo docker ps -a
+  414  sudo docker rm buladou
+  415  sudo docker ps -a
+  416  sudo docker run dit ubuntu
+  417  sudo docker run -dit ubuntu
+  418  sudo docker ps -a
+  419  sudo docker run -dit -e demo=buladoudoudou
+  420  sudo docker run -dit -e demo=buladoudoudou bash
+  421  sudo docker ps -a
+  422  sudo docker exec -it 08990
+  423  cd
+  424  env
+  425  pwd
+  426  sudo docker ps -a
+  427  sudo docker kill 08990
+  428  sudo docker kill 990be9 215c0
+  429  sudo docker ps -a
+  430  sudo docker kill 81152
+  431  sudo docker ps -a
+  432  sudo docker rm 0899077e 81152 990be 215c
+  433  sudo docker ps -a
+  434  exit
+  435  sudo docker ps -a
+  436  sudo docker images
+  437  sudo docker run -dit ubuntu
+  438  sudo docker ps -a
+  439  sudo docker run -dit -e demo=buladoudoudou ubuntu
+  440  sudo docker ps -a
+  441  sudo docker exec -it afe09 bash
+  442  env
+  443  exit
+  444  sudo docker run -dit  -e demo=buladoudoudou -e demo1=xiaobu -e demo2=123456789 -e demo3=hahaha --name=ubuntu ubuntu
+  445  sudo docker exec -it ubuntu bash
+  446  sudo docker ps -a
+  447  sudo docker stop 7a506
+  448  sudo docker stop afe093 9c28ca5
+  449  sudo docker ps -a
+  450  sudo docker rm 7a506 afe093 9c28ca
+  451  sudo doker ps -a
+  452  sudo docker ps -a
+  453  sudo docker pull nginx
+  454  sudo docker images
+  455  sudo docker run -dit -p 80:80 nginx
+  456  sudo docker run -dit -p 6399:80 nginx
+  457  sudo docker ps -a
+  458  sudo docker stop d1103
+  459  sudo docker ps -a
+  460  sudo docker stop 0ab3
+  461  sudo docker ps -a
+  462  sudo docker rm 0ab3 d1103
+  463  sudo docker ps -a
+  464  sudo docker run -dit ubuntu
+  465  sudo docker exec -it 8fcd bash
+  466  sudo docker exec -it 519abd bash
+  467  pwd
+  468  cd Desktop
+  469  rm newdemo.txt first.txt add.txt 
+  470  touch demo
+  471  sudo docker ps -a
+  472  sudo docker run -dit -v /home/buladou/Desktop:/root/hbd --name=ubuntu ubuntu
+  473  sudo docker ps -a
+  474  sudo docker exec -it 4f5ba90 bash 
+  475  vi demo
+  476  sudo docker ps -a
+  477  sudo docker rm 4f5ba 519
+  478  sudo docker stop 4f5ba 519
+  479  sudo docker rm 4f5ba 519
+  480  sudo docker pa -a
+  481  sudo docker ps -a
+  482  sudo docker images
+  483  sudo docker run -dit ubuntu
+  484  sodo docker run -dit nginx
+  485  sudo docker run -dit nginx
+  486  sudo docker ps -a
+  487  sudo docker logs 9268
+  488  sudo docker logs 301d
+  489  sudo docker ps -a
+  490  sudo dockerexec 9268 ls
+  491  sudo docker exec 9268 ls
+  492  sudo docker exec 9268 uname -a
+  493  sudo docker exec -it 9268 bash
+  494  sudo docker exec -t 9268 bash
+  495  sudo docker exec -it 9268 dash
+  496  ls
+  497  pwd
+  498  sudo docker ps -a
+  499  sudo docker stop 301d 9268
+  500  sudo docker ps -a
+  501  sudo docker rm 301d25 9268
+  502  sudo docker ps -a
+  503  exit
+  504  sudo docker pull centos
+  505  sudo docker ps -a
+  506  sudo docker images
+  507  sudo docker run -dit centos
+  508  sudo docker ps -a
+  509  ls
+  510  sudo docker exec -it ff76
+  511  sudo docker exec -it ff76 bash
+  512  sudo docker stop ff76
+  513  sudo docker ps -a
+  514  sudo docker rm ff76
+  515  sudo docker ps -a
+  516  sudo docker images
+  517  sudo run -dit ubuntu 
+  518  sudo docker run -dit ubuntu
+  519  sudo docker ps -a
+  520  sudo docker exec -it 280d
+  521  sudo docker exec -it 280 bash
+  522  sudo docket ps -a
+  523  sudo docker ps -a
+  524  sudo docker exec 280dd bash
+  525  exit
+  526  sudo docker ps -a
+  527  sudo docker exec -it 280dd bash
+  528  sudo docker ps -a
+  529  sudo docker stop 280dd
+  530  sudo docker ps -a
+  531  sudo docker rm 280dd
+  532  sudo docker ps -a
+  533  sudo docker images
+  534  sudo docker rmi centos
+  535  sudo docker images
+  536  pwd
+  537  sudo docker pull mysql
+  538  clear
+  539  sudo docker images
+  540  ip adress
+  541  ip address
+  542  sudo docker images
+  543  sudo docker run --name=mysql -e MYSQL_ROOT_PASSWORD=buladou -e MYSQL_DATABASE=buladou -p 3306:3306 -dit mysql 
+  544  sudo docker run --name=mysql -e MYSQL_ROOT_PASSWORD=buladou -e MYSQL_DATABASE=buladou -p 3307:3306 -dit mysql 
+  545  sudo docker ps -a
+  546  sudo docker stop b8b0ea
+  547  sudo docker ps -a
+  548  sudo docker rm b8b0ea
+  549  sudo docker ps -a
+  550  sudo docker images
+  551  sudo docker run --name=musql -e MYSQL_ROOT_PASSWPRD=buladou -e MYSQL_DATABASE=buladou -p 3306:3306 -dit mysql:latest
+  552  sudo docker ps -a
+  553  snap find mysql
+  554  uname
+  555  uname -a
+  556  sudo docker logs mysql 
+  557  sudo docker logs 11f1
+  558  sudo docker ps -a
+  559  sudo docker stop 11f1
+  560  sudo doker rm 11f1
+  561  sudo docker rm 11f1
+  562  sudo docker ps -a
+  563  exit
+  564  pwd
+  565  sudo docker images
+  566  sudo docker pull ghost
+  567  sudo docker images
+  568  sudo docker run --name=mysql -e MYSQL_ROOT_PASSWORD=buladou -e MYSQL_DATABASE=buladou -p 3306:3306 -dit mysql:latest
+  569  sudo docker ps -a
+  570  sudo docker stop ed2e
+  571  sudo docker rm ed2e
+  572  sudo docker ps -a
+  573  sudo docker run --name=mysql -e MYSQL_ROOT_PASSWORD=buladou -e MYSQL_DATABASE=buladou -p 3306:3306 -dit mysql:latest
+  574  sudo docker ps -a
+  575  sudo docker kill 03122
+  576  sudo docker rm 03122
+  577  sudo doker ps -a
+  578  sudo docker pa -a
+  579  sudo docker ps -a
+  580  sudo docker images
+  581  sudo docker run --name=mysql -e MYSQL_ROOT_PASSWORD=buladou -e MYSQL_DATABASE=buladou -p 3306:3306 -dit mysql
+  582  sudo docker run --name=mysql -e MYSQL_ROOT_PASSWORD=buladou -e MYSQL_DATABASE=buladou -p 3306:3306 -dit mysql:latest
+  583  sudo docker run --name=musql -e MYSQL_ROOT_PASSWPRD=buladou -e MYSQL_DATABASE=buladou -p 3306:3306 -dit mysql:latest
+  584  sudo docker ps -a
+  585  sudo stop 4539
+  586  sudo docker stop 4539
+  587  sudo docker rm 4539
+  588  sudo docker ps -a
+  589  sudo docker kill 0f675
+  590  sudo docker rm 0f675
+  591  sudo docker ps -a
+  592  sudo docker images
+  593  exit
+  594  sudo docker images
+  595  sudo docker ps -a
+  596  sudo docker run --name=mysql -e MYSQL_ROOT_PASSWORD=buladou -e MYSQL_DATABASE=buladou -p 3306:3306 -dit mysql
+  597  sudo docker ps -a
+  598  sudo docker run -d -e GHOST_MYSQL_HOST=192.168.1.47 -e GHOST_MYSQL_USER=root -e GHOST_MYSQL_DATABASE=buladou -p 2368:2368 ghost
+  599  sudo docker ps -a
+  600  git
+  601  git --version
+  602  clear
+  603  git --version
+  604  man git
+  605  cd Desktop
+  606  cd dd
+  607  cd .git
+  608  cd ..
+  609  fing |grep git
+  610  find | grep git
+  611  clear
+  612  pwd
+  613  cd dd
+  614  touch first
+  615  vi first
+  616  cat fist
+  617  cat first
+  618  pwd
+  619  touch second
+  620  vi second
+  621  cat second
+  622  cd Desktop
+  623  ls 
+  624  cd ..
+  625  ls
+  626  cd Downloads
+  627  ls
+  628  ls -a
+  629  rm -r GitHubDesktop-x64.zip
+  630  ls -a
+  631  rm -r < ls -a
+  632  rm -r GitHubDesktopSetup-x64.exe
+  633  ls -a
+  634  pwd
+  635  sudo snap install github-desktop --beta --classic
+  636  pwd
+  637  cd Desktop
+  638  ls -a
+  639  cd dd
+  640  pwd
+  641  git init 
+  642  ls -al
+  643  cd Desktop
+  644  LS -A
+  645  ls -a
+  646  rm demo id_rsa_c id_rsa.pub_c.txt
+  647  ls -a
+  648  rm -r a
+  649  ls -a
+  650  git init two
+  651  cd two
+  652  la -a
+  653  clear
+  654  bash --vwesion
+  655  bash --version
+  656  sudo docker images
+  657  sudo docker run -dit ubuntu
+  658  sudo docker ps -a
+  659  sudo docker stop 86ee70
+  660  sudo docker ps -a
+  661  sudo docker rm 86ee70
+  662  sudo docker ps -a
+  663  sudo docker rm 37471
+  664  sudo docker ps -a
+  665  sudo docker exec aeed9b bash
+  666  uname
+  667  ip address
+  668  pwd
+  669  sudo docker ps -a
+  670  sudo docker stop aeed9b
+  671  sudo docker rm aeed
+  672  sudo docker ps -a
+  673  git
+  674  git --version
+  675  pwd
+  676  git config --global usr.name 'lala-sahara'
+  677  git config --global user.email 'lalasahara@outlook.com'
+  678  cd git
+  679  cd /
+  680  pwd
+  681  ls -a
+  682  cd ~
+  683  pwd
+  684  cd Desktop
+  685  cd two
+  686  ls -a
+  687  ls -al
+  688  cat .git
+  689  cd .git
+  690  ls -a
+  691  cd ..
+  692  pwd
+  693  cd ..
+  694  pwd
+  695  mkdir one
+  696  cd one
+  697  touch one.txt
+  698  vi one.txt
+  699  pwd
+  700  git init one
+  701  ls -a
+  702  pwd
+  703  ls -a
+  704  ls -al
+  705  git
+  706  ls
+  707  cd ~
+  708  cd Desktop
+  709  clear
+  710  cd one
+  711  ls -a
+  712  git log
+  713  cd
+  714  cd ..
+  715  pwd
+  716  cd ~
+  717  cd Desktop
+  718  git init repo
+  719  ls 
+  720  cd repo
+  721  ls
+  722  git add yi.txt
+  723  git add two/two.txt
+  724  git commit -m 'first commit'
+  725  git logs
+  726  cd ~
+  727  got log
+  728  git log
+  729  pwd
+  730  cd Desktop
+  731  cd repo
+  732  git add dog.jpg
+  733  git add two/dog.jpg
+  734  git commit -m 'add picture'
+  735  git status
+  736  git add yi.txt
+  737  git status
+  738  git add two/two.txt
+  739  status
+  740  git status
+  741  git commit -m 'modify one.txt two.txt'
+  742  git status
+  743  git log
+  744  git add more_file
+  745  git status
+  746  git commit -m 'more_file dir'
+  747  git log
+  748  git status
+  749  git add .
+  750  git status
+  751  git commit -m 'add allfile'
+  752  git log
+  753  history
+  754  pwd
+  755  git add yi.txt
+  756  git status
+  757  git commit -m 'modify yi.txt'
+  758  git status
+  759  git add .
+  760  git status
+  761  git commit -m 'add sfe file'
+  762  git log
+  763  git status
+  764  git commit -am 'modified file'
+  765  git status
+  766  git commit -am 'add ppp & modified ppp & modified sfe'
+  767  status
+  768  git status
+  769  git add ppp
+  770  git commit -am 'ppp add'
+  771  status
+  772  git status
+  773  pwd
+  774  git status
+  775  git add .
+  776  git reset HEAD zzz
+  777  git status
+  778  git reset HEAD zzzz
+  779  git status
+  780  git add zzzz
+  781  git status
+  782  git reset HEAD
+  783  git status
+  784  git add .
+  785  git status
+  786  git reset HEAD sfe
+  787  git status
+  788  git add .
+  789  git reset HEAD
+  790  git status
+  791  git add .
+  792  git status
+  793  git commit -m 'git reset HEAD[xxx]'
+  794  git log
+  795  git status
+  796  git add add-commit-reset
+  797  git status
+  798  git commit -m 'add-commit'
+  799  git status
+  800  git log
+  801  pwd
+  802  cd Desktop
+  803  cd repo
+  804  git reset HEAD~1
+  805  git log
+  806  git status
+  807  git add add-commit-reset
+  808  git commit -m 'add-commit teice'
+  809  git status
+  810  git log
+  811  git status
+  812  git log
+  813  cd Desktop
+  814  cd repo
+  815  git status
+  816  git add .
+  817  git status
+  818  git commit -m 'soft'
+  819  git log
+  820  cd Desktop
+  821  cd repo
+  822  git reset --soft HEAD~1
+  823  git log
+  824  git status
+  825  git commit -m 'soft 2'
+  826  git status
+  827  git log
+  828  git add .
+  829  git status
+  830  git log
+  831  git reset --mixed HEAD~1
+  832  git status
+  833  git log
+  834  git commit -am 'commit mixed 2'
+  835  add .
+  836  status
+  837  git status
+  838  git commit -am 'commit 2'
+  839  git log
+  840  git add .
+  841  git commit -m 'mixed 3'
+  842  git log
+  843  exit
+  844  cd Desktop
+  845  cd repo
+  846  git status
+  847  git add .
+  848  git commit -m 'hard1'
+  849  git log
+  850  log
+  851  git log
+  852  cd Desktop
+  853  cd repo
+  854  git reset --hard HEAD~1
+  855  git log
+  856  git add .
+  857  git commit -m 'hard2'
+  858  git log
+  859  git commit -am 'hard3' 
+  860  git log
+  861  git status
+  862  git commit -am 'hard update'
+  863  pwd
+  864  git status
+  865  git add ccccc
+  866  git add two/ccccc
+  867  git commit -m 'c1'
+  868  git log
+  869  git status
+  870  git commit -am 'c2'
+  871  git log
+  872  cd Desktop
+  873  cd repo
+  874  git log
+  875  git reset 0bd08a
+  876  git log
+  877  git add .
+  878  git commit -m 'redo c1'
+  879  git log
+  880  git commit -am 'readd2'
+  881  git log
+  882  git diff
+  883  git status
+  884  git log
+  885  git diff
+  886  git status
+  887  git diff
+  888  git status
+  889  git diff
+  890  cd Desktop
+  891  cd repo
+  892  git diff --cached
+  893  git diff
+  894  git diff --cached
+  895  git add ccc
+  896  git status
+  897  git add mode/ccc
+  898  git diff
+  899  git diff --cached
+  900  git add .
+  901  git commit -m 'add all of them'
+  902  git log
+  903  pwd
+  904  cd Desktop
+  905  cd repo
+  906  git diff
+  907  git add .
+  908  git commit -m '1'
+  909  git log
+  910  git diff
+  911  cd Desktop
+  912  cd repo
+  913  git status
+  914  git diff
+  915  cd Desktop
+  916  cd repo
+  917  git diff HEAD
+  918  git add ppp
+  919  git diff HEAD
+  920  git diff
+  921  git diff --cached
+  922  git diff HEAD
+  923  git diff cached
+  924  git diff --cached
+  925  git add qqq
+  926  git diff
+  927  git diff --cached
+  928  git diff HEAD
+  929  git commit -m 'new'
+  930  git diff HEAD
+  931  git diff --cached
+  932  git diff 
+  933  git add .
+  934  git commit -m 'all of it'
+  935  cd Desktop
+  936  cd repo
+  937  git diff HEAD HEAD~1
+  938  cd Desktop
+  939  cd repo
+  940  git add .
+  941  git commit -m 'add diff.txt'
+  942  git diff HEAD HEAD~1
+  943  git diff
+  944  add diff.txt
+  945  git add diff.txt
+  946  git diff 
+  947  git log
+  948  git diff HEAD~2 HEAD diff.txt
+  949  git diff --cached
+  950  git diff HEAD HEAD~2 mode
+  951  clear
+  952  git diff HEAD~3 HEAD --stat
+  953  git diff --stat HEAD~3 HEAD ppp
+  954  git diff --stat HEAD~3 HEAD diff.txt
+  955  history > historygit.txt
+  956  git add .
+  957  git commit -m 'add nites'
+  958  cat historygit.txt
+  959  pwd
+  960  cd Desktop
+  961  cd repo
+  962  git status
+  963  git add rm-files
+  964  git commit -m 'delete re-files1'
+  965  git log
+  966  git status
+  967  git rm -r rm-files
+  968  git status
+  969  git commit 'really rm'
+  970  git commit -m 'really rm'
+  971  git log
+  972  git status
+  973  git log
+  974  git rm yi.txt
+  975  git status
+  976  git restore yi.txt
+  977  git status
+  978  git log
+  979  git restore -S yi.txt
+  980  git --h
+  981  git status
+  982  git commit -'rs'
+  983  git commit -m 'rs'
+  984  git status
+  985  git log
+  986  git status
+  987  git restore .
+  988  git remote .
+  989  git restore
+  990  git log
+  991  git reset HEAD~3
+  992  git status
+  993  git log
+  994  git add .
+  995  git commit -m 'back'
+  996  git status
+  997  git log
+  998  git status
+  999  git checkout .
+ 1000  git status
+ 1001  git log
+ 1002  git add mv.txt
+ 1003  git commit -m 'add mv'
+ 1004  git status
+ 1005  git log
+ 1006  git status
+ 1007  git commit -m ''
+ 1008  git status
+ 1009  git add mv.txt
+ 1010  git commit -m ''
+ 1011  git rm -r checkout.txt
+ 1012  git status
+ 1013  git commit -am 'chekout'
+ 1014  git status
+ 1015  git add checkout.txt
+ 1016  git commit -m 'che'
+ 1017  gitstatus
+ 1018  git status
+ 1019  git add mv.txt
+ 1020  git commit -m 'mvtxt'
+ 1021  git log
+ 1022  git status
+ 1023  cat mv.txt
+ 1024  git status
+ 1025  git add mv1.txt
+ 1026  git commit -m 'mv1'
+ 1027  git log
+ 1028  git mv mv1.txt mv1.html
+ 1029  git status
+ 1030  git log
+ 1031  git commit -m 'git mv first doing'
+ 1032  git log
+ 1033  pwd
+ 1034  mkdir img
+ 1035  git mv two/dog.jpg img/newdog.jpg
+ 1036  cd Desktop
+ 1037  cd repo
+ 1038  git branch
+ 1039  git log
+ 1040  git checkout master
+ 1041  git log
+ 1042  midir tag
+ 1043  mkdir tag
+ 1044  touch tag/tag1.txt
+ 1045  vi tag1.txt
+ 1046  git tag -h
+ 1047  git tag -a first_tag
+ 1048  vi tag/tag1.txt
+ 1049  git status
+ 1050  git tag
+ 1051  git log
+ 1052  vi tag/tag1.txt
+ 1053  git tag -a second_tag -m 'For second tag'
+ 1054  git tag
+ 1055  git log
+ 1056  git status
+ 1057  vi tag/tag1.txt
+ 1058  git add .
+ 1059  git commit -m 'upd'
+ 1060  git tag -a third_tag -m 'the last one'
+ 1061  git log
+ 1062  git tag -a merge_orp 0350c02cf01
+ 1063  git log
+ 1064  git tag -a merge_orp 0350c02cfd8448
+ 1065  git tag
+ 1066  git log
+ 1067  git status
+ 1068  git tag -d merge_orp
+ 1069  git tag
+ 1070  git log
+ 1071  git tag -d first_tag second_tag
+ 1072  git tag
+ 1073  git tag -a demo -m 'demotag'
+ 1074  git tag
+ 1075  git log
+ 1076  git tag -a demomo -m '2222007784'
+ 1077  git log
+ 1078  git tag -d demomo demo
+ 1079  git tag
+ 1080  git tag -a demo -m '22220077' 2222007784
+ 1081  git log
+ 1082  git tag -a newdemo -m 'newtag' 2222007784
+ 1083  git tag -d demo
+ 1084  git log
+ 1085  git tag -a reset_target -m 'test tag'
+ 1086  git tag
+ 1087  git log
+ 1088  git tag -d third
+ 1089  git tag
+ 1090  git tag -d third_tag
+ 1091  git tlog
+ 1092  git log
+ 1093  rm orp orp.txt
+ 1094  git status
+ 1095  git add .
+ 1096  git commit -m 'delete orp orp.txt'
+ 1097  git log
+ 1098  git status
+ 1099  git log
+ 1100  git reset reset_target
+ 1101  git status
+ 1102  git add .
+ 1103  git commit -m 'do reset_target again'
+ 1104  git log
+ 1105  git status
+ 1106  git tag
+ 1107  git tag -a newdemo -m 'same name tag'
+ 1108  git status
+ 1109  git log
+ 1110  vi tag/tag1.txt
+ 1111  git status
+ 1112  git add .
+ 1113  git commit -m 'upd git'
+ 1114  git status
+ 1115  git log
+ 1116  env
+ 1117  env > ../gitenv.txt
+ 1118  git log >> ../gitenv.txt
+ 1119  git reflog
+ 1120  clear
+ 1121  pwd
+ 1122  cd ~
+ 1123  pwd
+ 1124  ls -al
+ 1125  cd .ssh
+ 1126  ls -al
+ 1127  cd id_isa.pub
+ 1128  cat id_rsa.pub
+ 1129  clear
+ 1130  pwd
+ 1131  cd ~
+ 1132  cd Desktop
+ 1133  git clone git@github.com:pallets/flask.git
+ 1134  ls -a
+ 1135  cd flask
+ 1136  ls -a
+ 1137  git branch
+ 1138  git status
+ 1139  git log
+ 1140  git branch
+ 1141  exit
+ 1142  pwd
+ 1143  cd Desktop
+ 1144  pwd
+ 1145  git clone git@github.com:lala-sahara/git--remote-repo.git
+ 1146  ls
+ 1147  cd git--remote-repo
+ 1148  ls
+ 1149  git status
+ 1150  git log
+ 1151  git status
+ 1152  git add .
+ 1153  git commit -m 'first commit'
+ 1154  git status
+ 1155  git log
+ 1156  git push
+ 1157  git log
+ 1158  git reset --mixed HEAD~1
+ 1159  git status
+ 1160  git add .
+ 1161  git commit -m 'first commit'
+ 1162  git status
+ 1163  git log
+ 1164  vi first.txt
+ 1165  git add .
+ 1166  git commit -m 'first commit'
+ 1167  git push
+ 1168  git status
+ 1169  exit
+ 1170  pwd
+ 1171  cd Desktop
+ 1172  cd repo
+ 1173  git branch
+ 1174  git remote add origin git@github.com:lala-sahara/repo.git
+ 1175  git push -u origin main
+ 1176  git push -u origin master
+ 1177  history > ../repo/github-remote-repo
+ 1178  git add .
+ 1179  git commit -m ''
+ 1180  git status
+ 1181  git reset --mixed HEAD~1
+ 1182  git status
+ 1183  git add .
+ 1184  git commit -m 'second'
+ 1185  git status
