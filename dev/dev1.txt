@@ -1,1 +1,2 @@
 for detail dev1.txt
+this is dev.txt on master
