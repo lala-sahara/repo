@@ -1,1 +1,9 @@
 this is a other file created by github web.use to show how to pull a file to you local computer.
+step 1: make some file at Gweb,save it.
+step 2: Open your local computer taminal ,move to the file's repisitory.
+        make sure both on the same branch.
+Then,so easy,use the command ...
+
+git pull
+
+That's it ! done.
